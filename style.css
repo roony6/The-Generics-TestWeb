@@ -1,0 +1,121 @@
+
+@font-face{
+    font-family: "Booster - Zero Zero";
+    src: url("/Fonts/Booter\ -\ Zero\ Zero.woff") format("woff"),
+         url("/Fonts/Booter\ -\ Zero\ Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.main-header{
+    background-image: url("/Images/Header\ Background.jpg");
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+
+.header-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav ul{
+    margin: 0%;
+}
+
+.nav li{
+    display: inline;
+    padding: 0 5%;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: seashell;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.band-name{
+    text-align: center;
+    margin: 0%;
+    font-size: 4em;
+    font-family: "Booster - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large{
+    font-size: 10em;
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-header{
+    font-family: cursive, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #333333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-img{
+    float: left;
+    height: 200px;
+    margin: 15px;
+    border-radius: 30%;
+}
+
+.button{
+    font-size: 2em;
+}
+
+
+.main-footer{
+    background-color: skyblue;
+    color: snow;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    display: flex;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 0.5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
